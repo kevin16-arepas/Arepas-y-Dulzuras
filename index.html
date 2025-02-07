@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arepas y Dulzuras de Santander</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Arepas y Dulzuras</h1> nota: nuestra pagina aun esta en desarrollo, una disculpa por la precentación.
+    <nav>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <br>
+  <h1>NOTA</h1>  <h3> Tus pedidos debes hacerlos un dia antes <br> haz tu pedido hoy y estara listo para mañana</h3>
+
+<br>
+<br>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="producto" id="arepas-sal">
+      <p> </p>Arepa de  Queso 100% caseras y naturales (el paquete trae 4 arepas)</p>
+      <img src="imagenes/arepas .jpg" alt="arepas de queso" width="150" height="100"> <img src="imagenes/arepas crudas .jpg" alt="arepas de queso" width="150" height="100"> 
+      <p>Precio: $5000</p>
+      <input type="number" id="cantidad-arepa-sal" min="0" value="1">
+    </div>
+
+    <br>
+    <br>
+
+    <div class="producto" id="arroz-leche">
+      <p>Arroz con leche, vienen con uvas pasas y queso rayado</p>
+      <img src="imagenes/arroz con leche .jpg" alt="arroz con leche" width="120" height="120">
+      <p>Precio: $7000</p>
+      <input type="number" id="cantidad-arroz-leche" min="0" value="1">
+    </div>
+
+    <br>
+    <br>
+
+    <div class="producto" id="postres">
+      <p>Postre de oreo - postre de galleta</p>
+      <img src="imagenes/postre de oreo.jpg" alt="postre oreo" width="150" height="100"> <img src="imagenes/postres de galleta .jpg" alt="postre galleta" width="150" height="100">
+      <p>Precio: $7000</p>
+      <input type="number" id="cantidad-postres" min="0" value="1">
+    </div>
+
+
+    <button id="calcular-total">Calcular Total</button>
+    <p id="total"></p>
+    <button id="realizar-pedido" disabled>Realizar Pedido</button>
+  </section>
+
+  <br>
+  <br>
+  <br>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Para cualquier duda, puedes escribirnos al WhatsApp.</p>
+    <a href="https://wa.me/573132540390" target="_blank">Enviar mensaje a WhatsApp</a>
+  </section>
+
+     
+  <div>
+    <a href="https://wa.me/573132540390?text=¡Mira%20esta%20página%20genial%20sobre%20Arepas%20y%20Dulzuras:%20https://www.arepasyduzuras.com" target="_blank">
+      <button>Compartir en WhatsApp</button>
+    </a>
+  </div>
+        
+  <br>
+
+  <footer>
+   <p><h3>Horario de servicio:</h3> martes, miercoles y jueves de 9:30AM hasta 5:00PM</p> <br> <h2>RECORDATORIO</h2> Tus pedidos debes hacerlos un dia antes 
+    
+  </footer>
+</body>
+</html>
